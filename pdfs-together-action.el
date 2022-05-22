@@ -31,4 +31,6 @@
           (call-interactively #'pdf-view-previous-page-command)))
     (call-interactively #'wr-select-pdf-frames))))
 
+(define-key ivy-minibuffer-map (kbd "C-<SPC>") 'ivy-mark)
+
 (provide 'pdfs-together-action)
